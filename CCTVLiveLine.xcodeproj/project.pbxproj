@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		141EF6C7198B284C0053658F /* CCGetP2PUrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 141EF6C6198B284C0053658F /* CCGetP2PUrl.m */; };
+		141EF6CF198B3AE60053658F /* CCGetP2PData.m in Sources */ = {isa = PBXBuildFile; fileRef = 141EF6CE198B3AE60053658F /* CCGetP2PData.m */; };
+		141EF6D6198B70FA0053658F /* CCLiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 141EF6D5198B70FA0053658F /* CCLiveViewController.m */; };
+		141EF6D9198B71120053658F /* CCPlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 141EF6D8198B71120053658F /* CCPlayViewController.m */; };
+		141EF6DB198B734F0053658F /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 141EF6DA198B734F0053658F /* MediaPlayer.framework */; };
+		141EF6DF198B91300053658F /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 141EF6DE198B91300053658F /* Reachability.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -w"; }; };
+		14B15916198F66D5005E2DE5 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B15915198F66D5005E2DE5 /* MBProgressHUD.m */; settings = {COMPILER_FLAGS = "-w"; }; };
+		14B4C5A7198A3111007CCBA9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14B4C5A6198A3111007CCBA9 /* Foundation.framework */; };
+		14B4C5A9198A3111007CCBA9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14B4C5A8198A3111007CCBA9 /* CoreGraphics.framework */; };
+		14B4C5AB198A3111007CCBA9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14B4C5AA198A3111007CCBA9 /* UIKit.framework */; };
+		14B4C5B1198A3111007CCBA9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 14B4C5AF198A3111007CCBA9 /* InfoPlist.strings */; };
+		14B4C5B3198A3111007CCBA9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B4C5B2198A3111007CCBA9 /* main.m */; };
+		14B4C5B7198A3111007CCBA9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B4C5B6198A3111007CCBA9 /* AppDelegate.m */; };
+		14B4C5B9198A3111007CCBA9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14B4C5B8198A3111007CCBA9 /* Images.xcassets */; };
+		14B4C5C0198A3111007CCBA9 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14B4C5BF198A3111007CCBA9 /* XCTest.framework */; };
+		14B4C5C1198A3111007CCBA9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14B4C5A6198A3111007CCBA9 /* Foundation.framework */; };
+		14B4C5C2198A3111007CCBA9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14B4C5AA198A3111007CCBA9 /* UIKit.framework */; };
+		14B4C5CA198A3111007CCBA9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 14B4C5C8198A3111007CCBA9 /* InfoPlist.strings */; };
+		14B4C5CC198A3111007CCBA9 /* CCTVLiveLineTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B4C5CB198A3111007CCBA9 /* CCTVLiveLineTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		14B4C5C3198A3111007CCBA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14B4C59B198A3111007CCBA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14B4C5A2198A3111007CCBA9;
+			remoteInfo = CCTVLiveLine;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		141EF6C5198B284C0053658F /* CCGetP2PUrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCGetP2PUrl.h; path = ../CCGetP2PUrl.h; sourceTree = "<group>"; };
+		141EF6C6198B284C0053658F /* CCGetP2PUrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CCGetP2PUrl.m; path = ../CCGetP2PUrl.m; sourceTree = "<group>"; };
+		141EF6CD198B3AE60053658F /* CCGetP2PData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCGetP2PData.h; sourceTree = "<group>"; };
+		141EF6CE198B3AE60053658F /* CCGetP2PData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCGetP2PData.m; sourceTree = "<group>"; };
+		141EF6D4198B70FA0053658F /* CCLiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCLiveViewController.h; sourceTree = "<group>"; };
+		141EF6D5198B70FA0053658F /* CCLiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCLiveViewController.m; sourceTree = "<group>"; };
+		141EF6D7198B71120053658F /* CCPlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCPlayViewController.h; sourceTree = "<group>"; };
+		141EF6D8198B71120053658F /* CCPlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCPlayViewController.m; sourceTree = "<group>"; };
+		141EF6DA198B734F0053658F /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		141EF6DD198B91300053658F /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		141EF6DE198B91300053658F /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		14B15914198F66D5005E2DE5 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		14B15915198F66D5005E2DE5 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		14B4C5A3198A3111007CCBA9 /* CCTVLiveLine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCTVLiveLine.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		14B4C5A6198A3111007CCBA9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		14B4C5A8198A3111007CCBA9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		14B4C5AA198A3111007CCBA9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		14B4C5AE198A3111007CCBA9 /* CCTVLiveLine-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CCTVLiveLine-Info.plist"; sourceTree = "<group>"; };
+		14B4C5B0198A3111007CCBA9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		14B4C5B2198A3111007CCBA9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		14B4C5B4198A3111007CCBA9 /* CCTVLiveLine-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CCTVLiveLine-Prefix.pch"; sourceTree = "<group>"; };
+		14B4C5B5198A3111007CCBA9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		14B4C5B6198A3111007CCBA9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		14B4C5B8198A3111007CCBA9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		14B4C5BE198A3111007CCBA9 /* CCTVLiveLineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CCTVLiveLineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		14B4C5BF198A3111007CCBA9 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		14B4C5C7198A3111007CCBA9 /* CCTVLiveLineTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CCTVLiveLineTests-Info.plist"; sourceTree = "<group>"; };
+		14B4C5C9198A3111007CCBA9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		14B4C5CB198A3111007CCBA9 /* CCTVLiveLineTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCTVLiveLineTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14B4C5A0198A3111007CCBA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				141EF6DB198B734F0053658F /* MediaPlayer.framework in Frameworks */,
+				14B4C5A9198A3111007CCBA9 /* CoreGraphics.framework in Frameworks */,
+				14B4C5AB198A3111007CCBA9 /* UIKit.framework in Frameworks */,
+				14B4C5A7198A3111007CCBA9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14B4C5BB198A3111007CCBA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14B4C5C0198A3111007CCBA9 /* XCTest.framework in Frameworks */,
+				14B4C5C2198A3111007CCBA9 /* UIKit.framework in Frameworks */,
+				14B4C5C1198A3111007CCBA9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		141EF6C8198B286E0053658F /* CCGData */ = {
+			isa = PBXGroup;
+			children = (
+				141EF6C5198B284C0053658F /* CCGetP2PUrl.h */,
+				141EF6C6198B284C0053658F /* CCGetP2PUrl.m */,
+				141EF6CD198B3AE60053658F /* CCGetP2PData.h */,
+				141EF6CE198B3AE60053658F /* CCGetP2PData.m */,
+				14B15913198F66D5005E2DE5 /* MBProgressHUD */,
+				141EF6DC198B91300053658F /* Reachability */,
+			);
+			path = CCGData;
+			sourceTree = "<group>";
+		};
+		141EF6D0198B70AB0053658F /* CCPlayData */ = {
+			isa = PBXGroup;
+			children = (
+				141EF6D4198B70FA0053658F /* CCLiveViewController.h */,
+				141EF6D5198B70FA0053658F /* CCLiveViewController.m */,
+				141EF6D7198B71120053658F /* CCPlayViewController.h */,
+				141EF6D8198B71120053658F /* CCPlayViewController.m */,
+			);
+			path = CCPlayData;
+			sourceTree = "<group>";
+		};
+		141EF6DC198B91300053658F /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				141EF6DD198B91300053658F /* Reachability.h */,
+				141EF6DE198B91300053658F /* Reachability.m */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		14B15913198F66D5005E2DE5 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				14B15914198F66D5005E2DE5 /* MBProgressHUD.h */,
+				14B15915198F66D5005E2DE5 /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		14B4C59A198A3111007CCBA9 = {
+			isa = PBXGroup;
+			children = (
+				14B4C5AC198A3111007CCBA9 /* CCTVLiveLine */,
+				14B4C5C5198A3111007CCBA9 /* CCTVLiveLineTests */,
+				14B4C5A5198A3111007CCBA9 /* Frameworks */,
+				14B4C5A4198A3111007CCBA9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		14B4C5A4198A3111007CCBA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14B4C5A3198A3111007CCBA9 /* CCTVLiveLine.app */,
+				14B4C5BE198A3111007CCBA9 /* CCTVLiveLineTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14B4C5A5198A3111007CCBA9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				141EF6DA198B734F0053658F /* MediaPlayer.framework */,
+				14B4C5A6198A3111007CCBA9 /* Foundation.framework */,
+				14B4C5A8198A3111007CCBA9 /* CoreGraphics.framework */,
+				14B4C5AA198A3111007CCBA9 /* UIKit.framework */,
+				14B4C5BF198A3111007CCBA9 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		14B4C5AC198A3111007CCBA9 /* CCTVLiveLine */ = {
+			isa = PBXGroup;
+			children = (
+				14B4C5B5198A3111007CCBA9 /* AppDelegate.h */,
+				14B4C5B6198A3111007CCBA9 /* AppDelegate.m */,
+				141EF6D0198B70AB0053658F /* CCPlayData */,
+				141EF6C8198B286E0053658F /* CCGData */,
+				14B4C5B8198A3111007CCBA9 /* Images.xcassets */,
+				14B4C5AD198A3111007CCBA9 /* Supporting Files */,
+			);
+			path = CCTVLiveLine;
+			sourceTree = "<group>";
+		};
+		14B4C5AD198A3111007CCBA9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				14B4C5AE198A3111007CCBA9 /* CCTVLiveLine-Info.plist */,
+				14B4C5AF198A3111007CCBA9 /* InfoPlist.strings */,
+				14B4C5B2198A3111007CCBA9 /* main.m */,
+				14B4C5B4198A3111007CCBA9 /* CCTVLiveLine-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		14B4C5C5198A3111007CCBA9 /* CCTVLiveLineTests */ = {
+			isa = PBXGroup;
+			children = (
+				14B4C5CB198A3111007CCBA9 /* CCTVLiveLineTests.m */,
+				14B4C5C6198A3111007CCBA9 /* Supporting Files */,
+			);
+			path = CCTVLiveLineTests;
+			sourceTree = "<group>";
+		};
+		14B4C5C6198A3111007CCBA9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				14B4C5C7198A3111007CCBA9 /* CCTVLiveLineTests-Info.plist */,
+				14B4C5C8198A3111007CCBA9 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		14B4C5A2198A3111007CCBA9 /* CCTVLiveLine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14B4C5CF198A3111007CCBA9 /* Build configuration list for PBXNativeTarget "CCTVLiveLine" */;
+			buildPhases = (
+				14B4C59F198A3111007CCBA9 /* Sources */,
+				14B4C5A0198A3111007CCBA9 /* Frameworks */,
+				14B4C5A1198A3111007CCBA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CCTVLiveLine;
+			productName = CCTVLiveLine;
+			productReference = 14B4C5A3198A3111007CCBA9 /* CCTVLiveLine.app */;
+			productType = "com.apple.product-type.application";
+		};
+		14B4C5BD198A3111007CCBA9 /* CCTVLiveLineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14B4C5D2198A3111007CCBA9 /* Build configuration list for PBXNativeTarget "CCTVLiveLineTests" */;
+			buildPhases = (
+				14B4C5BA198A3111007CCBA9 /* Sources */,
+				14B4C5BB198A3111007CCBA9 /* Frameworks */,
+				14B4C5BC198A3111007CCBA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14B4C5C4198A3111007CCBA9 /* PBXTargetDependency */,
+			);
+			name = CCTVLiveLineTests;
+			productName = CCTVLiveLineTests;
+			productReference = 14B4C5BE198A3111007CCBA9 /* CCTVLiveLineTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14B4C59B198A3111007CCBA9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "中视广信";
+				TargetAttributes = {
+					14B4C5BD198A3111007CCBA9 = {
+						TestTargetID = 14B4C5A2198A3111007CCBA9;
+					};
+				};
+			};
+			buildConfigurationList = 14B4C59E198A3111007CCBA9 /* Build configuration list for PBXProject "CCTVLiveLine" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 14B4C59A198A3111007CCBA9;
+			productRefGroup = 14B4C5A4198A3111007CCBA9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14B4C5A2198A3111007CCBA9 /* CCTVLiveLine */,
+				14B4C5BD198A3111007CCBA9 /* CCTVLiveLineTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14B4C5A1198A3111007CCBA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14B4C5B1198A3111007CCBA9 /* InfoPlist.strings in Resources */,
+				14B4C5B9198A3111007CCBA9 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14B4C5BC198A3111007CCBA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14B4C5CA198A3111007CCBA9 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14B4C59F198A3111007CCBA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14B4C5B7198A3111007CCBA9 /* AppDelegate.m in Sources */,
+				14B4C5B3198A3111007CCBA9 /* main.m in Sources */,
+				141EF6C7198B284C0053658F /* CCGetP2PUrl.m in Sources */,
+				141EF6DF198B91300053658F /* Reachability.m in Sources */,
+				141EF6D9198B71120053658F /* CCPlayViewController.m in Sources */,
+				141EF6D6198B70FA0053658F /* CCLiveViewController.m in Sources */,
+				141EF6CF198B3AE60053658F /* CCGetP2PData.m in Sources */,
+				14B15916198F66D5005E2DE5 /* MBProgressHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14B4C5BA198A3111007CCBA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14B4C5CC198A3111007CCBA9 /* CCTVLiveLineTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		14B4C5C4198A3111007CCBA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 14B4C5A2198A3111007CCBA9 /* CCTVLiveLine */;
+			targetProxy = 14B4C5C3198A3111007CCBA9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		14B4C5AF198A3111007CCBA9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14B4C5B0198A3111007CCBA9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		14B4C5C8198A3111007CCBA9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14B4C5C9198A3111007CCBA9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		14B4C5CD198A3111007CCBA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		14B4C5CE198A3111007CCBA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		14B4C5D0198A3111007CCBA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CCTVLiveLine/CCTVLiveLine-Prefix.pch";
+				INFOPLIST_FILE = "CCTVLiveLine/CCTVLiveLine-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		14B4C5D1198A3111007CCBA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CCTVLiveLine/CCTVLiveLine-Prefix.pch";
+				INFOPLIST_FILE = "CCTVLiveLine/CCTVLiveLine-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		14B4C5D3198A3111007CCBA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CCTVLiveLine.app/CCTVLiveLine";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CCTVLiveLine/CCTVLiveLine-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CCTVLiveLineTests/CCTVLiveLineTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		14B4C5D4198A3111007CCBA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CCTVLiveLine.app/CCTVLiveLine";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CCTVLiveLine/CCTVLiveLine-Prefix.pch";
+				INFOPLIST_FILE = "CCTVLiveLineTests/CCTVLiveLineTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14B4C59E198A3111007CCBA9 /* Build configuration list for PBXProject "CCTVLiveLine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14B4C5CD198A3111007CCBA9 /* Debug */,
+				14B4C5CE198A3111007CCBA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14B4C5CF198A3111007CCBA9 /* Build configuration list for PBXNativeTarget "CCTVLiveLine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14B4C5D0198A3111007CCBA9 /* Debug */,
+				14B4C5D1198A3111007CCBA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14B4C5D2198A3111007CCBA9 /* Build configuration list for PBXNativeTarget "CCTVLiveLineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14B4C5D3198A3111007CCBA9 /* Debug */,
+				14B4C5D4198A3111007CCBA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 14B4C59B198A3111007CCBA9 /* Project object */;
+}
